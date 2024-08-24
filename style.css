@@ -1,0 +1,807 @@
+body{
+    font-family: sans-serif;
+    margin:0%;
+    background-color: rgb(21, 21, 33);
+    background-size: 100%;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(40, 37, 37);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+.image-content img{
+    height: 48px;
+    width: 48px;
+    padding: 8px;
+    margin-left: 28px;
+    border-radius: 23px;
+}
+.nav-items{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    list-style-type: none;
+    padding: 10px;
+    margin-right: 400px;
+}
+.nav-items li a{
+    text-decoration: none;
+    color: white;
+    padding: 3px ;
+    font-size:16px;
+    margin-left: 13px;
+}
+.nav-items a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.subscribe{
+    padding:18px;
+}
+.subscribe button{
+    background-color: rgb(205, 22, 22);
+    color: white;
+    height: 32px;
+    font-size:16px ;
+    border-radius: 18px;
+    width: 100px;
+    margin-right: 0px;
+}
+.man{
+    color: white;
+    margin-right: 20px;
+    padding: 25px;
+    size: 90px;
+}
+/* hero section */
+.hero{
+    overflow-x: scroll;
+    display: flex;
+    width:100%;
+    gap: 10px;
+    height: 80vh;
+}
+.hero img{
+    border-radius: 15px;
+}
+.hero::-webkit-scrollbar {
+    display: none;
+}
+  /* live TV */
+.live-channel{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    gap:10px;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+.live-channel img{
+    width: 50%;
+    border-radius: 10px;
+}
+.live-channel::-webkit-scrollbar {
+    display: none;
+}
+.livetv h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* latest episodes */
+.episodes{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+.episodes::-webkit-scrollbar {
+    display: none;
+}
+.episodes img{
+    width: 50%;
+    border-radius: 10px;
+}
+.latestserial h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+  }
+/* latest movies */
+.lmovies{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    gap: 15px;
+
+}
+.lmovies::-webkit-scrollbar {
+    display: none;
+  }
+.lmovies img{
+    width: 240px;
+    height: 330px;
+    border-radius: 10px;
+}
+
+.latestmovies h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* 100 Ultimate Blockbuster Movies */
+.bbmovies{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+.bbmovies::-webkit-scrollbar {
+    display: none;
+}
+.bbmovies img{
+    width: 50%;
+    border-radius: 10px;
+}
+.blockbuster h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* TV Shows */
+.tvshows{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+.tvshows::-webkit-scrollbar {
+    display: none;
+  }
+.tvshows img{
+    width: 50%;
+    border-radius: 10px;
+}
+.tv-shows h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* star born in august */
+.sbiastar{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    gap: 15px;
+}
+.sbiastar::-webkit-scrollbar {
+    display: none;
+  }
+.sbiastar img{
+    width: 240px;
+    height: 330px;
+    border-radius: 10px;  
+}
+.star-born h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* August Anniversary Fest */
+.augustfest{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+
+.augustfest img{
+    width: 50%;
+    border-radius: 10px;
+}
+.augustfest::-webkit-scrollbar {
+    display: none;
+  }
+.aa-fest h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* New On Sun NXT */
+.newonsunnxt{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+
+.newonsunnxt img{
+    width: 50%;
+    border-radius: 10px;
+}
+.newonsunnxt::-webkit-scrollbar {
+    display: none;
+  }
+.new-sunnxt h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* Raayan Collections */
+.raayancons{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+
+.raayancons img{
+    width: 50%;
+    border-radius: 10px;
+}
+.raayancons::-webkit-scrollbar {
+    display: none;
+  }
+.raa-cons h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* RECOMMENTED FOR YOU */
+.recomfu{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    gap: 15px;
+}
+.recomfu::-webkit-scrollbar {
+    display: none;
+  }
+.recomfu img{
+    width: 240px;
+    height: 330px;
+    border-radius: 10px;  
+}
+.recomment-fu h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* Top Cooku Dupe Cooku-Season 1 */
+.tdcook{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+.tdcook img{
+    width: 50%;
+    border-radius: 10px;
+}
+.tdcook::-webkit-scrollbar {
+    display: none;
+  }
+.tc-dc h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* Star Comedies */
+.starcoms{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+.starcoms img{
+    width: 50%;
+    border-radius: 10px;
+}
+.starcoms::-webkit-scrollbar {
+    display: none;
+  }
+.star-coms h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* Latest Songs */
+.latesong{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    gap: 15px;
+}
+.latesong::-webkit-scrollbar {
+    display: none;
+  }
+.latesong img{
+    width: 240px;
+    height: 330px;
+    border-radius: 10px;  
+}
+.latest-song h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* Dubbed Movies */
+.dubmovie{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    gap: 15px;
+}
+.dubmovie::-webkit-scrollbar {
+    display: none;
+  }
+.dubmovie img{
+    width: 240px;
+    height: 330px;
+    border-radius: 10px;  
+}
+.dubbed-movie h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* Popular Actress */
+.popactress{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+.popactress img{
+    width: 50%;
+    border-radius: 10px;
+}
+.popactress::-webkit-scrollbar {
+    display: none;
+}
+.popular-actress h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}  
+/* Comedy Kondattam */
+.comekondattam{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+.comekondattam img{
+    width: 50%;
+    border-radius: 10px;
+}
+.comekondattam::-webkit-scrollbar {
+    display: none;
+}
+.come-kondattam h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}  
+/* Movies With Subtitles */
+.moviesub{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    gap: 15px;
+}
+.moviesub::-webkit-scrollbar {
+    display: none;
+  }
+.moviesub img{
+    width: 240px;
+    height: 330px;
+    border-radius: 10px;  
+}
+.moview-sub h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* Celebrity Interview */
+.celebinter{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+.celebinter img{
+    width: 50%;
+    border-radius: 10px;
+}
+.celebinter::-webkit-scrollbar {
+    display: none;
+}
+.celeb-inter h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}  
+/* Dolby Atmos Movies */
+.dolmovies{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+.dolmovies img{
+    width: 50%;
+    border-radius: 10px;
+}
+.dolmovies::-webkit-scrollbar {
+    display: none;
+}
+.dolat-movies h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}  
+/* Shades Of Comedy */
+.shadeofcom{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+.shadeofcom img{
+    width: 50%;
+    border-radius: 10px;
+}
+.shadeofcom::-webkit-scrollbar {
+    display: none;
+}
+.shade-comedy h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}  
+/* Movies In Dolby Vision */
+.moveindolon{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+.moveindolon img{
+    width: 50%;
+    border-radius: 10px;
+}
+.moveindolon::-webkit-scrollbar {
+    display: none;
+}
+.movin-dolsion h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}  
+/* Discover */
+.discover{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+.discover img{
+    width: 50%;
+    border-radius: 10px;
+}
+.discover::-webkit-scrollbar {
+    display: none;
+}
+.dis-cover h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}  
+/* Dubbed In Multiple Languages */
+.dubinmultilang{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+.dubinmultilang img{
+    width: 50%;
+    border-radius: 10px;
+}
+.dubinmultilang::-webkit-scrollbar {
+    display: none;
+}
+.dubin-multilang h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}  
+/* Movies By Decade */
+.moviesbydecade{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+.moviesbydecade img{
+    width: 50%;
+    border-radius: 10px;
+}
+.moviesbydecade::-webkit-scrollbar {
+    display: none;
+}
+.movies-bydecade h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* Dolby Movies */
+.dolbymovies{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    gap: 15px;
+}
+.dolbymovies::-webkit-scrollbar {
+    display: none;
+  }
+.dolbymovies img{
+    width: 240px;
+    height: 330px;
+    border-radius: 10px;  
+}
+.dolby-movies h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* Collections */
+.collections{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+.collections img{
+    width: 50%;
+    border-radius: 10px;
+}
+.collections::-webkit-scrollbar {
+    display: none;
+}
+.collec-tions h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* Trailers */
+.trailers{
+    margin: 0;
+    padding: 20px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    gap: 20px;
+    height: 20vh;
+}
+.trailers img{
+    width: 50%;
+    border-radius: 10px;
+}
+.trailers::-webkit-scrollbar {
+    display: none;
+}
+.trai-lers h1{
+    color: white;
+    font-size: 20px;
+    margin: 1px;
+    padding: 20px;
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(155, 49, 49);
+    height: 55px;
+    width: 100%;
+}
+
+.image-cont img{
+    height: 53px;
+    width: 53px;
+    padding: 1px;
+    margin-left: 30px;
+    border-radius: 23px;
+}
+.footer-items{
+    display: flex;
+    gap: 4px;
+    font-size: 5px;
+    list-style-type: none;
+    padding: 10px;
+    margin-right: 440px;
+}
+.footer-items li a{
+    text-decoration: none;
+    color: white;
+    padding: 3px ;
+    font-size:15px;
+}
+.footer-items a:hover{
+ color: yellow;
+}
+.footer1{
+    background-color: rgb(43, 42, 42);
+    height: 150px;
+    display: flex;
+}
+.footer-list{
+    color: white;
+    font-size: small;
+}
+.footer-list2{
+    font-size: 6px;
+    color: white;
+}
+.footer-list3{
+    font-size: 6px;
+    color: white;
+}
+.foot-cont{
+    margin-top: 5px;
+    width: 35%;
+    padding: 15px;
+    border-right: 1px solid grey;
+}
+.foot-cont1{
+    font-size: 7px;
+    width: 15%;
+    color: gray;
+    margin: 20px;
+    border-right: 1px solid grey;
+}
+.foot-cont1 i{
+    font-size: 25px;
+    margin-left: 15px;
+}
+.download{
+    font-size: 7px;
+    width: 20%;
+    color: gray;
+    margin: 20px;
+    border-right: 1px solid grey;
+}
+.download img{
+    gap: 40px;
+}
+.available{
+    font-size: 7px;
+    width: 10%;
+    color: gray;
+    margin: 20px;
+}
+.available img{
+ width: 250px;
+}
+
